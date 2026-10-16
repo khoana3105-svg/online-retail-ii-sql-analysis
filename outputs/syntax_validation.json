@@ -1,0 +1,26 @@
+﻿[
+    {
+        "File":  "01_nhap_du_lieu.sql",
+        "SyntaxErrors":  0,
+        "Errors":  [
+
+                   ],
+        "CheckType":  "syntax_only"
+    },
+    {
+        "File":  "02_thuc_hanh.sql",
+        "SyntaxErrors":  0,
+        "Errors":  [
+
+                   ],
+        "CheckType":  "syntax_only"
+    },
+    {
+        "File":  "03_time_comparisons.sql",
+        "SyntaxErrors":  0,
+        "Errors":  [
+
+                   ],
+        "CheckType":  "syntax_only"
+    }
+]

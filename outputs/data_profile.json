@@ -1,0 +1,56 @@
+{
+  "source": "online_retail_II.xlsx",
+  "sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "counts": {
+    "rows": 1067371,
+    "price_rounded_to_six_decimals": 112879,
+    "quantity_negative": 22950,
+    "quantity_zero": 0,
+    "price_negative": 5,
+    "price_zero": 6202,
+    "invoice_C": 19494,
+    "blank_invoice": 0,
+    "blank_stock": 0,
+    "valid_numeric_and_date": 1067371,
+    "eligible_rows": 1061164,
+    "positive_sale_rows": 1041670,
+    "C_positive_quantity": 1
+  },
+  "sheet_rows": {
+    "Year 2009-2010": 525461,
+    "Year 2010-2011": 541910
+  },
+  "missing": {
+    "Customer ID": 243007,
+    "Description": 4382
+  },
+  "date_min": "2009-12-01",
+  "date_max": "2011-12-09",
+  "min_max": {
+    "quantity": [
+      "-80995",
+      "80995"
+    ],
+    "price": [
+      "-53594.36",
+      "38970"
+    ]
+  },
+  "duplicate_groups": 32907,
+  "duplicate_extra_rows": 34335,
+  "duplicate_policy": "Keep: no transaction-line identifier to prove accidental duplication.",
+  "totals": [
+    "ALL",
+    "19445926.708000",
+    "20972968.138000",
+    "-1527041.430000",
+    "20972594.568000",
+    1061164
+  ],
+  "checks": {
+    "csv_reread_rows": 1067371,
+    "monthly_equals_quarterly": true,
+    "net_equals_positive_plus_negative": true
+  },
+  "sql_server_execution": "Not executed: Windows Authentication failed (SSPI context)."
+}
