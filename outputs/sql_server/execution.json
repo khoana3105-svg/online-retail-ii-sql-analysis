@@ -1,0 +1,233 @@
+﻿{
+    "ExecutedAtUTC":  "2026-10-16T12:14:09.5528252Z",
+    "Database":  "OnlineRetailII_Portfolio",
+    "ResultSets":  [
+                       {
+                           "File":  "02_thuc_hanh_01.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  10,
+                           "Columns":  [
+                                           "SourceSheet",
+                                           "SourceRow",
+                                           "Invoice",
+                                           "StockCode",
+                                           "Description",
+                                           "Quantity",
+                                           "InvoiceDate",
+                                           "Price",
+                                           "CustomerID",
+                                           "Country"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_02.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  2,
+                           "Columns":  [
+                                           "SourceSheet",
+                                           "TotalRows"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_03.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "TotalRows",
+                                           "FirstDate",
+                                           "LastDate",
+                                           "MissingCustomer",
+                                           "MissingDescription",
+                                           "MissingInvoice",
+                                           "MissingStockCode",
+                                           "MissingCountry",
+                                           "InvalidMeasures",
+                                           "NegativeQuantity",
+                                           "ZeroQuantity",
+                                           "NegativePrice",
+                                           "ZeroPrice",
+                                           "CInvoices",
+                                           "CWithPositiveQuantity"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_04.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "MinQuantity",
+                                           "MaxQuantity",
+                                           "MeanQuantity",
+                                           "StdQuantity",
+                                           "MinPrice",
+                                           "MaxPrice",
+                                           "MeanPrice",
+                                           "StdPrice"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_05.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "DuplicateGroups",
+                                           "ExtraDuplicateRows"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_06.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "RawRows",
+                                           "EligibleRows",
+                                           "ExcludedRows",
+                                           "PositiveSaleRows",
+                                           "NetRecordedValue",
+                                           "PositiveRecordedValue",
+                                           "NegativeRecordedValue",
+                                           "SalesRevenue"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_07.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  50,
+                           "Columns":  [
+                                           "SourceSheet",
+                                           "SourceRow",
+                                           "Invoice",
+                                           "StockCode",
+                                           "Description",
+                                           "Quantity",
+                                           "InvoiceDate",
+                                           "UnitPrice",
+                                           "CustomerID",
+                                           "Country"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_08.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  20,
+                           "Columns":  [
+                                           "Invoice",
+                                           "StockCode",
+                                           "InvoiceDate",
+                                           "Country",
+                                           "Quantity",
+                                           "UnitPrice",
+                                           "LineValue"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_09.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "SalesRevenue",
+                                           "SaleInvoices",
+                                           "RevenuePerInvoice",
+                                           "UnitsSold"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_10.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  25,
+                           "Columns":  [
+                                           "SalesYear",
+                                           "SalesMonth",
+                                           "EligibleRows",
+                                           "SalesRevenue",
+                                           "SaleInvoices",
+                                           "PositiveRecordedValue",
+                                           "NegativeRecordedValue",
+                                           "NetRecordedValue",
+                                           "FirstObservedDate",
+                                           "LastObservedDate"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_11.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  9,
+                           "Columns":  [
+                                           "SalesYear",
+                                           "SalesQuarter",
+                                           "EligibleRows",
+                                           "SalesRevenue",
+                                           "PositiveRecordedValue",
+                                           "NegativeRecordedValue",
+                                           "NetRecordedValue",
+                                           "FirstObservedDate",
+                                           "LastObservedDate"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_12.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  5,
+                           "Columns":  [
+                                           "SalesYear",
+                                           "SalesMonth",
+                                           "SalesRevenue"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_13.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  2,
+                           "Columns":  [
+                                           "SalesYear",
+                                           "JanToNovSalesRevenue"
+                                       ]
+                       },
+                       {
+                           "File":  "02_thuc_hanh_14.csv",
+                           "Source":  "02_thuc_hanh.sql",
+                           "Rows":  1,
+                           "Columns":  [
+                                           "DuplicateExtraSalesValue"
+                                       ]
+                       },
+                       {
+                           "File":  "03_time_comparisons_01.csv",
+                           "Source":  "03_time_comparisons.sql",
+                           "Rows":  25,
+                           "Columns":  [
+                                           "MonthStart",
+                                           "SalesRevenue",
+                                           "NetRecordedValue",
+                                           "SaleInvoices",
+                                           "WithinObservedCoverage",
+                                           "MoMPercent",
+                                           "YoYPercent",
+                                           "ObservedYTD",
+                                           "MovingAverage3Months"
+                                       ]
+                       },
+                       {
+                           "File":  "03_time_comparisons_02.csv",
+                           "Source":  "03_time_comparisons.sql",
+                           "Rows":  2,
+                           "Columns":  [
+                                           "SalesYear",
+                                           "JanToNovSalesRevenue",
+                                           "SamePeriodGrowthPercent"
+                                       ]
+                       },
+                       {
+                           "File":  "03_time_comparisons_03.csv",
+                           "Source":  "03_time_comparisons.sql",
+                           "Rows":  43,
+                           "Columns":  [
+                                           "Country",
+                                           "SalesRevenue",
+                                           "SampleSalesSharePercent",
+                                           "SalesRank"
+                                       ]
+                       }
+                   ],
+    "SqlServerVersion":  "16.0.1000.6"
+}

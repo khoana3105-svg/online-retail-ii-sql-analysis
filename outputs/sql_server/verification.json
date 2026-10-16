@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "database": "OnlineRetailII_Portfolio",
+  "executed_at_utc": "2026-10-16T12:14:09.5528252Z",
+  "sql_server_version": "16.0.1000.6",
+  "checks": [
+    "25 monthly SQL periods exactly match independent Decimal expectations",
+    "Quarterly totals reconcile with monthly and independent expectations",
+    "Raw/eligible/excluded counts and signed-value reconciliation",
+    "CTE/window MoM, YoY, observed YTD, moving average and incomplete-month NULLs",
+    "Same Jan-Nov population reconciles across years",
+    "Country sales total and shares reconcile"
+  ],
+  "sql_sha256": {
+    "01_nhap_du_lieu.sql": "2efd8cc34f45d40ae1d6df07b35aeb6d86dcd8e51eedaeccbdba017f3ce891a5",
+    "02_thuc_hanh.sql": "2804153f8067557efdb96f0cd72eb467d37bceeb21e48d67f8f093695ff83195",
+    "03_time_comparisons.sql": "8442d9822109de13ec30dd09fc7fbf8d6ba84575f52ca2395ef27deafe3dcb92"
+  },
+  "limitations": [
+    "No fresh workbook download comparison",
+    "No accounting ledger reconciliation",
+    "Date-span coverage does not prove daily completeness"
+  ]
+}
